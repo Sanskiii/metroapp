@@ -1,0 +1,400 @@
+body {
+	margin: 0;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* TOP NAVIGATION */
+
+nav {
+	height: 60px;
+	background-color: #352d2f;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.logo {
+	float: left;
+	color: white;
+	margin-left: 10%;
+	text-decoration: none;
+	text-align: center;
+	background-color: #f63c3c;
+	padding: 13px 14px;
+	line-height: 17px;
+	font-size: 18px;
+}
+
+.topnav {
+	float: right;
+	margin-right: 10%;
+}
+
+.topnav li {
+	display: inline-block;
+	background-color: none;
+	font-size: 18px;
+}
+
+.topnav a {
+	text-decoration: none;
+	color: white;
+	padding: 3px 20px 14px;
+}
+
+.topnav a:hover {
+	border-bottom: 3px solid white;
+}
+
+
+/* HERO -- HEADER */
+header {
+	text-align: center;
+	margin: 0 auto;
+	background-color: #352d2f;
+	padding-bottom: 30px;
+	color: white;
+	font-family: 'Teko', sans-serif;
+}
+
+header h1 {
+	padding-top: 180px;
+	width: 55%;
+	margin: 0 auto;
+	font-size: 80px;
+	letter-spacing: 10px;
+	line-height: 83px;
+}
+
+/* HEADER BUTTON */
+header button {
+	color: white;
+	display: block;
+	background-color: transparent;
+	border: 1px solid white;
+	padding: 10px 20px;
+	margin: 30px auto 15px;
+	cursor: pointer;
+}
+
+header .fa {
+	padding-right: 5px;
+}
+
+/* HEADER DISCOVER MORE!*/
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header p {
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 0;
+}
+
+
+/* SECTION II -- EXPLORE */
+#explore {
+	font-family: 'Teko', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	width: 60%;
+}
+
+#explore h2 {
+	letter-spacing: 5px;
+	font-size: 34px;
+	line-height: 38px;
+}
+
+#explore button {
+	background-color: #f63c3c;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+}
+
+
+/* SECTION III ---- PROJECTS */
+#projects {
+	color: white;
+	font-family: 'Teko', sans-serif;
+	height: 600px;
+	background-color: #352d2f;
+}
+
+#projects h3 {
+	font-size: 32px;
+	letter-spacing: 3px;
+	font-weight: normal;
+}
+
+
+		/* FEATURED PROJECT */
+.left-project {
+	float: left;
+	background-color: #f63c3c;
+	width: 50%;
+	height: 550px;
+}
+
+.featured {
+	margin: 30% 0 3px 10%;
+}
+
+.left-project h3 {
+	margin: 3px 0 0 10%;
+}
+
+.featured-p {
+	width: 45%;
+	margin-left: 10%;
+	margin-top: 0;
+	font-weight: normal;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+}
+
+
+		/* MODEL S */
+.top-right, .bottom-right {
+	float: right;
+	width: 50%;
+	height: 275px;
+}
+
+.top-right {
+	background-color: #352d2f;
+}
+
+.top-right h3, .bottom-right h3 {
+	margin: 10% 0 0 10%;
+}
+
+.top-right p, .bottom-right p {
+	margin-right: 45%;
+	margin-left: 10%;
+}
+
+
+		/* CURIOSITY */
+.bottom-right {
+	background-color: #30282a;
+}
+
+/* SHOW MORE BUTTON */
+
+.more {
+	text-align: center;
+	padding: 10px 0;
+	clear: both;
+}
+.more a {
+	color: white;
+	text-decoration: none;
+	border-bottom: 3px solid white;
+}
+
+
+/* SECTION IV --- INFORMATION */
+#info {
+	margin: 50px auto;
+	width: 80%;
+	font-family: 'Teko', sans-serif;
+}
+
+#info div {
+	display: inline;
+	float: left;
+	width: 45%;
+}
+
+.info-right {
+	padding-left: 10%
+}
+
+#info .fa {
+	color: #f63c3c;
+}
+
+#info h3 {
+	margin: 0;
+	font-size: 13px;
+}
+
+#info p {
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 16px;
+}
+
+/* SOCIAL MEDIA */
+#social {
+	clear: both;
+	margin: 250px 10% 0 10%;
+}
+
+#social h2 {
+	font-family: 'Teko', sans-serif;
+	margin-bottom: 0;
+	font-size: 32px;
+}
+
+#social p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+}
+
+/*#social ul {
+	width: 80%;
+
+}*/
+
+#social li {
+	display: inline-block;
+	text-align: center;
+	margin: 2px 5px;
+	background-color: #30282a;
+	color: white;
+	padding: 30px 50px;
+}
+
+#social a {
+	text-decoration: none;
+/*	background-color: #30282a;*/
+	color: white;
+/*	padding: 30px 50px;*/
+}
+
+
+
+
+/* CONTACT */
+#contact {
+	height: 200px;
+	background-color: #30282a;
+	font-family: 'Teko', sans-serif;
+	padding: 150px;
+}
+
+#contact div {
+	background-color: #f63c3c;
+	color: white;
+	text-align: center;
+	width: 35%;
+	padding: 45px 25px;
+	margin: 0 auto;
+}
+
+span {
+	display: block;
+	line-height: 20px;
+}
+
+address {
+	font-style: normal;
+}
+
+
+/* BOTTOM NAVIGATION */
+
+footer {
+	font-family: 'Teko', sans-serif;
+}
+
+.footer-wrapper {
+	width: 65%;
+	margin: 0 auto;
+}
+
+/*.bottom-links {
+	border-bottom: 3px solid black;
+}*/
+
+.metro,
+.our-services,
+.our-works {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	margin: 5px 15px;
+}
+
+.lefty, .righty {
+	float: left;
+	width: 50%;
+}
+
+.metro ul,
+.our-services ul,
+.our-works ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.metro a, .our-services a, .our-works a {
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+
+.metro li, .our-services li, .our-works li {
+	line-height: 13px;
+}
+
+.metro h3, .our-services h3, .our-works h3 {
+	border-bottom: 5px solid black;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+
+.metro {
+	width: 20%;
+}
+
+.our-services {
+	width: 45%;
+}
+
+.our-works {
+	width: 20%;
+}
+
+/* FOOOOOOOTER */
+
+.copy {
+	clear: both;
+	color: black;
+	border-top: 2px solid black;
+	font-size: 12px;
+	padding: 2px 0 50px;
+}
+
+.copy span, .copy ul, .copy li {
+	display: inline-block;
+	margin: 0;
+}
+
+.copy span {
+	float: left;
+}
+
+.copy ul {
+	float: right;
+}
+
+.copy a {
+	text-decoration: none;
+	color: black;
+}
